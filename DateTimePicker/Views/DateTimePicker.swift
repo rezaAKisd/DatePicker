@@ -9,9 +9,11 @@ import UIKit
 
 class DateTimePicker: UITextField{
 
+    // UI variable
     var datePicker = UIDatePicker()
     let toolBar = UIToolbar()
     
+    // Handle userAction and textField Text 
     var currentDate: Date?
     
     required init?(coder: NSCoder) {
